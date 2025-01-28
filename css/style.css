@@ -40,7 +40,7 @@ main {
     margin: 0 auto;
 }
 
-.section {
+.wrapper {
     padding: 15px 40px;
 }
 
@@ -60,4 +60,40 @@ main {
 #add-section {
     color: #d1d6da;
     border: 1px solid #d1d6da;
+}
+
+.wrapper section {
+    margin-bottom: 20px;
+}
+
+.task {
+    padding-top: 10px;
+}
+
+.mark,
+.category {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.mark {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.tick-done {
+    color: #64c0a9;
+    border: 1px solid #64c0a9;
+    border-radius: 50%;
+}
+
+.category {
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 12px;
+}
+
+.editorial {
+    background-color: #45abe9;
 }
