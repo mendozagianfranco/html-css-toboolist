@@ -5,6 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 5px 15px;
+}
+
 header {
     margin: 20px;
     height: 50px;
@@ -19,4 +26,38 @@ header #title {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+main {
+    background-color: #f6f8f9;
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.container {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 15px 40px;
+}
+
+.buttons {
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.buttons button {
+    border-radius: 5px;
+}
+
+#add-task {
+    background: #47adf1;
+    color: #fff;
+}
+
+#add-section {
+    color: #d1d6da;
+    border: 1px solid #d1d6da;
 }
