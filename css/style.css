@@ -66,6 +66,12 @@ main {
     margin-bottom: 20px;
 }
 
+.group-task h2::before {
+    content: '\25BC';
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 .task {
     padding: 10px 0;
 }
@@ -93,9 +99,17 @@ main {
     border-color: #64c0a9;
 }
 
+.tick-done::after {
+    content: '\2714';
+}
+
 .tick-incomplete {
     color: #eb5b54;
     border-color: #eb5b54;
+}
+
+.tick-incomplete::after {
+    content: '\2717';
 }
 
 .category {
