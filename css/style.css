@@ -67,7 +67,11 @@ main {
 }
 
 .task {
-    padding-top: 10px;
+    padding: 10px 0;
+}
+
+.task span {
+    margin-left: 5px;
 }
 
 .mark,
@@ -80,12 +84,18 @@ main {
     width: 20px;
     height: 20px;
     text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
 }
 
 .tick-done {
     color: #64c0a9;
-    border: 1px solid #64c0a9;
-    border-radius: 50%;
+    border-color: #64c0a9;
+}
+
+.tick-incomplete {
+    color: #eb5b54;
+    border-color: #eb5b54;
 }
 
 .category {
@@ -96,4 +106,16 @@ main {
 
 .editorial {
     background-color: #45abe9;
+}
+
+.goals {
+    background-color: #9c72e4;
+}
+
+.recruit {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
